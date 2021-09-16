@@ -1,26 +1,11 @@
 import * as React from "react";
-
+import "../assets/custom.scss";
 import JSONData from "../assets/data.json";
 
 const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-};
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
 };
 
 const linkStyle = {
@@ -29,28 +14,44 @@ const linkStyle = {
   fontSize: 16,
   verticalAlign: "5%",
 };
+const cardStyle = {
+  marginBottom: 10,
+};
 
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>MM</h1>
-      <ul style={listStyles}>
+      <title>Minecraft mod manager</title>
+      <h1 class="title">Minecraft mods</h1>
+      <div class="columns is-multiline">
         {JSONData.map((data, index) => (
-          <li key={index} style={{ ...listItemStyles }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${data.url}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {data.name}
-              </a>
-            </span>
-          </li>
+          <div class="column is-one-quarter">
+            <div class="card" style={cardStyle}>
+              <div class="card-content">
+                <div class="content">
+                  <a
+                    style={linkStyle}
+                    href={`${data.url}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {data.name}
+                  </a>
+                  <p class="subtitle">v{data.version}</p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">
+                  Edit
+                </a>
+                <a href="#" class="card-footer-item">
+                  delete
+                </a>
+              </footer>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </main>
   );
 };
