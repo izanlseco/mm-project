@@ -39,7 +39,12 @@ const IndexPage = () => {
         {JSONData.map((data, index) => (
           <li key={index} style={{ ...listItemStyles }}>
             <span>
-              <a style={linkStyle} href={`${data.url}`}>
+              <a
+                style={linkStyle}
+                href={`${data.url}`}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {data.name}
               </a>
             </span>

@@ -1,344 +1,485 @@
 [
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/adorn",
     "name": "adorn"
   },
   {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger",
     "name": "advancements-enlarger"
   },
   {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/advancements-debug",
     "name": "advancements-debug"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/alaska-native-craft",
     "name": "alaska-native-craft"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
     "name": "appleskin"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/aquaculture",
-    "name": "aquaculture"
+    "name": "aquacultury"
+  },
+  {
+    "installedAt": ["server"],
+    "version": "",
+    "type": ["API"],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-fabric",
+    "name": "architecture"
+  },
+  {
+    "installedAt": ["server"],
+    "version": "",
+    "type": [],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/attribute",
+    "name": "attribute-fix"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/beenfo",
     "name": "beenfo"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/caracal-mod",
     "name": "caracal-mod"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/carrier",
     "name": "carrier"
   },
   {
+    "installedAt": ["server"],
+    "version": "0.6.3",
+    "type": [],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/cave-biomes",
+    "name": "cave biomes"
+  },
+  {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/charm",
     "name": "charm"
   },
   {
+    "installedAt": ["server"],
+    "version": "2.0.54",
+    "type": ["API"],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-api",
+    "name": "cloth api"
+  },
+  {
+    "installedAt": ["server"],
+    "version": "5.0.38",
+    "type": ["API"],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+    "name": "cloth config"
+  },
+  {
+    "installedAt": ["server"],
+    "version": "7.0.5",
+    "type": [],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/clumps",
+    "name": "clumps"
+  },
+  {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks-fabric",
-    "name": "crafting-tweaks"
+    "name": "crafting tweaks"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric",
     "name": "croptopia"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/dank-storage-fabric",
     "name": "dank-storage"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/dark-enchanting",
     "name": "dark-enchanting"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/dark-paintings",
     "name": "dark-paintings"
   },
   {
+    "installedAt": ["server"],
+    "version": "2.0.6",
+    "type": ["API"],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/dawn",
+    "name": "dawn"
+  },
+  {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/deathlog",
     "name": "deathlog"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "0.4.4-beta",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated",
     "name": "deep-mob-learning"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "1.0.3",
+    "type": [],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-simulacrum",
+    "name": "deep-mob-learning-simulacrum"
+  },
+  {
+    "installedAt": ["client", "server"],
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/entity-banners",
     "name": "entity-banners"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "7.1.0",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/expanded-storage-fabric",
     "name": "expanded-storage"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "1.0.6-BETA",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/extra-generators",
     "name": "extra-generators"
   },
   {
+    "installedAt": ["client", "server"],
+    "version": "0.40.1",
+    "type": ["API"],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/fabric-api",
+    "name": "fabric API"
+  },
+  {
+    "installedAt": ["client", "server"],
+    "version": "1.6.4",
+    "type": ["API"],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin",
+    "name": "fabric language kotlin"
+  },
+  {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/falling-leaves-fabric",
     "name": "falling-leaves"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/falling-tree",
     "name": "falling-tree"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/glassential",
     "name": "glassential"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/golems-galore",
     "name": "golems-galore"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/impaled",
     "name": "impaled"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/improved-stations",
     "name": "improved-stations"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/inmis",
     "name": "inmis"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/kibe",
     "name": "kibe"
   },
   {
     "installedAt": ["server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/lakeside",
     "name": "lakeside"
   },
   {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights",
     "name": "lambdynamiclights"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/lifts",
     "name": "lifts"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/lovely-snails",
     "name": "lovely-snails"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/mo-colors",
     "name": "mo-colors"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/modern-industrialization",
     "name": "modern-industrialization"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/mo-glass",
     "name": "mo-glass"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/nyfs-quivers",
     "name": "nyfs-quivers"
   },
   {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/ok-zoomer",
     "name": "ok-zoomer"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/promenade",
     "name": "promenade"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/red-bits",
     "name": "red-bits"
   },
   {
     "installedAt": ["server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/river-redux",
     "name": "river-redux"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/runelic",
     "name": "runelic"
   },
   {
     "installedAt": ["client"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/slotlock",
     "name": "slotlock"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/staff-of-building",
     "name": "staff-of-building"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/straw-dummy",
     "name": "straw-dummy"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/techreborn",
     "name": "techreborn"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/terrarian-slimes",
     "name": "terrarian-slimes"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/grims-transportables",
     "name": "grims-transportables"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/untitled-duck-mod-fabric",
     "name": "untitled-duck-mod"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/vanilla-excavators",
     "name": "vanilla-excavators"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/vanilla-hammers",
     "name": "vanilla-hammers"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/winged",
     "name": "winged"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/wireless-networks",
     "name": "wireless-networks"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/wither-totem",
     "name": "wither-totem"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/wolves-with-armor",
     "name": "wolves-with-armor"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/woods-and-mires",
     "name": "woods-and-mires"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/harvest-scythes",
     "name": "harvest-scythes"
   },
   {
     "installedAt": ["client", "server"],
-    "type": "",
+    "version": "",
+    "type": [],
     "url": "https://www.curseforge.com/minecraft/mc-mods/fabric-waystones",
     "name": "fabric-waystones"
+  },
+  {
+    "installedAt": ["server"],
+    "version": "1.0.1",
+    "type": [],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric",
+    "name": "yungs-better-mineshafts"
+  },
+  {
+    "installedAt": ["server"],
+    "version": "1.1.1",
+    "type": [],
+    "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-fabric",
+    "name": "yungs-better-strongholds"
   }
 ]
