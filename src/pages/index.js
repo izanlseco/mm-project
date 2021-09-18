@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import "../assets/custom.scss";
 import JSONData from "../assets/data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,6 +22,8 @@ const cardStyle = {
 };
 
 const IndexPage = () => {
+  const [isActive, setIsActive] = useState(false);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -37,8 +39,24 @@ const IndexPage = () => {
           <a className="navbar-item" href="https://bulma.io">
             <img src={Logo} alt="logo" />
           </a>
+          <button
+            onClick={() => {
+              setIsActive(!isActive);
+            }}
+            class={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="main-menu"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
         </div>
-        <div className="navbar-menu">
+        <div
+          id="main-menu"
+          className={`navbar-menu ${isActive ? "is-active" : ""}`}
+        >
           <div className="navbar-start">
             <a className="navbar-item is-size-5" href="/home">
               Home
