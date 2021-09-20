@@ -32,7 +32,7 @@ const IndexPage = (props) => {
 
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <meta charSet="utf-8" />
         <meta
           name="description"
@@ -119,7 +119,11 @@ const IndexPage = (props) => {
       </main>
       <footer class="footer">
         <div class="content has-text-centered">
-          <button class="button is-text" onClick={scrollToTop}>
+          <button
+            arial-label="scroll to top"
+            class="button is-text"
+            onClick={scrollToTop}
+          >
             <FontAwesomeIcon icon={faCaretUp} size="3x" />
           </button>
           <br />
