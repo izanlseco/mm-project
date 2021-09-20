@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import "../assets/custom.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
-import Logo from "../assets/logo_black.png";
+import Logo from "../images/logo_black.png";
 
 const pageStyles = {
   color: "#232129",
@@ -46,7 +46,7 @@ const IndexPage = (props) => {
         aria-label="main-navigation"
       >
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
+          <a className="navbar-item" href="https://minemods.gatsbyjs.io/">
             <img src={Logo} alt="logo" />
           </a>
           <button
@@ -68,7 +68,7 @@ const IndexPage = (props) => {
           className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
           <div className="navbar-start">
-            <a className="navbar-item is-size-5" href="/home">
+            <a className="navbar-item is-size-5" href="/">
               Home
             </a>
           </div>

@@ -52,8 +52,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://mmproject.gatsbyjs.io/",
-        sitemap: "https://mmproject.gatsbyjs.io/sitemap.xml",
+        host: "https://minemods.gatsbyjs.io/",
+        sitemap: "https://minemods.gatsbyjs.io/sitemap.xml",
         env: {
           development: {
             policy: [{ userAgent: "*", disallow: ["/"] }],
