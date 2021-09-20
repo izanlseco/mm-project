@@ -34,6 +34,10 @@ const IndexPage = (props) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="Webpage made by Izan that is intended to be used as a way to have the mods that you're currently using in minecraft listed so you can have it all tidy in one place."
+        />
         <title>MineMods</title>
       </Helmet>
       <nav
