@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { graphql } from "gatsby";
+import { Helmet } from "react-helmet";
 import "../assets/custom.scss";
-import JSONData from "../assets/data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assets/logo_black.png";
@@ -21,7 +22,8 @@ const cardStyle = {
   marginBottom: 10,
 };
 
-const IndexPage = () => {
+const IndexPage = (props) => {
+  const mods = props.data.allMongodbMmprojectMods.edges;
   const [isActive, setIsActive] = useState(false);
 
   const scrollToTop = () => {
@@ -30,6 +32,10 @@ const IndexPage = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>MineMods</title>
+      </Helmet>
       <nav
         className="navbar is-light"
         role="navigation"
@@ -77,7 +83,7 @@ const IndexPage = () => {
           Username Collection
         </h1>
         <div className="columns is-multiline">
-          {JSONData.map((data, index) => (
+          {mods.map((data, index) => (
             <div key={index} className="column is-one-quarter">
               <div className="card" style={cardStyle}>
                 <div className="card-content">
@@ -85,13 +91,13 @@ const IndexPage = () => {
                     <a
                       className="has-text-link is-capitalized is-size-5"
                       style={linkStyle}
-                      href={`${data.url}`}
+                      href={`${data.node.url}`}
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {data.name}
+                      {data.node.name}
                     </a>
-                    <p className="subtitle">v{data.version}</p>
+                    <p className="subtitle">v{data.node.version}</p>
                   </div>
                 </div>
                 <footer className="card-footer">
@@ -128,3 +134,20 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const allModsQuery = graphql`
+  query MyQuery {
+    allMongodbMmprojectMods {
+      edges {
+        node {
+          id
+          type
+          url
+          version
+          name
+          installedAt
+        }
+      }
+    }
+  }
+`;
