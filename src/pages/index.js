@@ -24,6 +24,8 @@ const cardStyle = {
 
 const IndexPage = (props) => {
   const mods = props.data.allMongodbMmprojectMods.edges;
+
+  console.log(mods);
   const [isActive, setIsActive] = useState(false);
 
   const scrollToTop = () => {
@@ -53,7 +55,7 @@ const IndexPage = (props) => {
             onClick={() => {
               setIsActive(!isActive);
             }}
-            class={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
             aria-label="menu"
             aria-expanded="false"
             data-target="main-menu"
@@ -87,41 +89,43 @@ const IndexPage = (props) => {
           Username Collection
         </h1>
         <div className="columns is-multiline">
-          {mods.map((data, index) => (
-            <div key={index} className="column is-one-quarter">
-              <div className="card" style={cardStyle}>
-                <div className="card-content">
-                  <div className="content">
-                    <a
-                      className="has-text-link is-capitalized is-size-5"
-                      style={linkStyle}
-                      href={`${data.node.url}`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {data.node.name}
-                    </a>
-                    <p className="subtitle">v{data.node.version}</p>
+          {mods
+            .sort((a, b) => a.node.name.localeCompare(b.node.name))
+            .map((data, index) => (
+              <div key={index} className="column is-one-quarter">
+                <div className="card" style={cardStyle}>
+                  <div className="card-content">
+                    <div className="content">
+                      <a
+                        className="has-text-link is-capitalized is-size-5"
+                        style={linkStyle}
+                        href={`${data.node.url}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {data.node.name}
+                      </a>
+                      <p className="subtitle">v{data.node.version}</p>
+                    </div>
                   </div>
+                  <footer className="card-footer">
+                    <a href="/edit" className="card-footer-item is-size-5">
+                      Edit
+                    </a>
+                    <a href="/delete" className="card-footer-item is-size-5">
+                      Delete
+                    </a>
+                  </footer>
                 </div>
-                <footer className="card-footer">
-                  <a href="/edit" className="card-footer-item is-size-5">
-                    Edit
-                  </a>
-                  <a href="/delete" className="card-footer-item is-size-5">
-                    Delete
-                  </a>
-                </footer>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </main>
-      <footer class="footer">
-        <div class="content has-text-centered">
+      <footer className="footer">
+        <div className="content has-text-centered">
           <button
             arial-label="scroll to top"
-            class="button is-text"
+            className="button is-text"
             onClick={scrollToTop}
           >
             <FontAwesomeIcon icon={faCaretUp} size="3x" />
