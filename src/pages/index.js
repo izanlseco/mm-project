@@ -24,8 +24,6 @@ const cardStyle = {
 
 const IndexPage = (props) => {
   const mods = props.data.allMongodbMmprojectMods.edges;
-
-  console.log(mods);
   const [isActive, setIsActive] = useState(false);
 
   const scrollToTop = () => {
