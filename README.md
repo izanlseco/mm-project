@@ -2,4 +2,4 @@
   MineMods Project
 </h1>
 
-Live demo at: (https://minemods.gatsbyjs.io/)
+[Live demo](https://minemods.gatsbyjs.io/)
